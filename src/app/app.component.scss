@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+
+    width: 40vw;
+    height: 45vh;
+
+    margin: 2em;
+
+    padding: 5vw;
+
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+
+    img {
+        width: 40vw;
+        height: auto;
+        align-self: center;
+    }
+
+    h1{
+        align-self: center;
+    }
+
+    strong {
+        align-self: center;
+    }
+
+    p{
+        padding: 0.1em;
+        align-self: center;
+    }
+}
